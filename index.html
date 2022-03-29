@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Toms Portfolio</title>
 </head>
 <body>
-    This is my Portfolio.
+    <nav class="navbar navbar-expand-lg bg-info">
+        <a class="navbar-brand" href="#">Welcome to my Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <h1>Tom Surette</h1>
+    <p>
+        I am a Computer Science student looking to break into the world of <br>
+        Software Engineering. I am proficient in Javascript, ReactJS and Java.
+    </p>
+    <img id="logo" src="./Img/photo.jpeg" alt="picture">
+    <div class="projects">
+        <a href="#"><img id="thumbnail1" src="./img/VideoThumbnail.png"></a>
+    </div>
+    <div class="links">
+    <a id="linked" href="https://www.linkedin.com/in/tom-surette/"><img id="li" src="./img/LI.jpeg">Check out my LinkedIn Profile!</a>
+    <br>
+    <br>
+    <a id="git" href="https://www.github.com/tsurette331/"><img id="gitlogo" src="./img/github-logo.png">Check out my Github Account!</a>
+    </div>
 </body>
 </html>
