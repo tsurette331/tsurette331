@@ -59,6 +59,7 @@ p {
       position:absolute;
       right: 5%;
       top: 15%;
+      padding: 1px;
   }
 
     #thumbnail2 {
@@ -67,5 +68,4 @@ p {
 
     #thumbnail3 {
     width: 350px;
-    margin-bottom: 10px;
 }
