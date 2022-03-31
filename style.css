@@ -24,14 +24,6 @@ p {
       width: 400px;
   }
 
-      #thumbnail2 {
-    width: 400px;
-}
-
-    #thumbnail3 {
-    width: 400px;
-}
-
   nav {
     font-family: 'Work Sans', sans-serif;
      }
@@ -74,5 +66,5 @@ p {
 }
 
     #thumbnail3 {
-    width: 400px;
+    width: 350px;
 }
