@@ -60,3 +60,7 @@ p {
       right: 5%;
       top: 15%;
   }
+
+  #thumbnail2 {
+    width: 400px;
+}
