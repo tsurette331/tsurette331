@@ -61,6 +61,10 @@ p {
       top: 15%;
   }
 
-  #thumbnail2 {
+    #thumbnail2 {
+    width: 400px;
+}
+
+    #thumbnail3 {
     width: 400px;
 }
